@@ -12,6 +12,6 @@ app.use('/redirect',require('./routes/redirect'))
 app.use('',require('./routes/routes'))
 app.use('',authroute)
 app.use('',authroute)
-const PORT=3002;
+const Port=3001;
 
-app.listen(PORT,()=>{console.log("app connected at"+`${PORT}`)}) 
+app.listen(Port,()=>{console.log("app connected at"+`${Port}`)}) 
