@@ -5,9 +5,9 @@ const {urlSchema}=require("../shared/urlmodule");
 router.get("/:code",async(req,res)=>{
   
 try{
-    console.log(req.params.code)
+    
     const url=await urlSchema.findOne({urlcode:req.params.code})
-  console.log(url);
+
     if (url) {
       
        

@@ -3,7 +3,7 @@ const router=express.Router();
 const shortid=require("shortid");
 const validurl=require("valid-url");
 const {urlSchema}=require("../shared/urlmodule")
-baseUrl="http://localhost:3005/redirect";
+baseUrl="https://urlshortner-backendnew.herokuapp.com/redirect";
 router.post("/shorten",async (req,res)=>{
 
 
