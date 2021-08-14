@@ -16,4 +16,4 @@ app.use('',authroute)
 app.use('',authroute)
 // const Port=process.env.PORT||3001;
 
-app.listen(process.env.PORT||3001,()=>{console.log("app connected at"+`${PORT}`)}) 
+app.listen(process.env.PORT||3001,()=>{console.log("app connected at 3003")}) 
